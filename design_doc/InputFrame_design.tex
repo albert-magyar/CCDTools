@@ -1,0 +1,10 @@
+\section*{The \cd{InputFrame}  class}
+\begin{itemize}
+\item \cd{private: std::string path}\\\\
+Holds the path to the FITS image file represented by this instance.
+\item \cd{public: InputFrame(std::string path)}\\\\
+Creates an \cd{InputFrame} instance representing the image found at \cd{path}.
+\item \cd{public: std::vector<pixel\_t> getData(void)}\\\\
+Reads in the FITS image file held at \cd{this->path} and returns a vector of its pixel data.
+\end{itemize}
+

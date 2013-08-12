@@ -1,0 +1,20 @@
+\documentclass[11pt]{article}
+\usepackage[margin=.70in]{geometry}
+\usepackage{amsmath,textcomp,amssymb,graphicx,tabularx,enumerate,bold-extra,pdfpages,color,etoolbox,fancyvrb}
+\makeatletter
+\preto{\@verbatim}{\topsep=--10pt \partopsep=0pt }
+\makeatother
+
+\title{CCDTools Design Document}
+\author{Albert Magyar}
+\markboth{CCDTools}{Design Document}
+\pagestyle{myheadings}
+\newcommand{\cd}[1]{\texttt{#1}}
+\renewcommand*\arraystretch{1.5}
+
+\begin{document}
+\maketitle
+\input{InputFrame_design.tex}
+\input{InputFrameSet_design.tex}
+\input{InputFrameSetProcessor_design.tex}
+\end{document}

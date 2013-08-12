@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+# LaTeX output
+*.aux
+*.log
+*.pdf
+*.synctex.gz
